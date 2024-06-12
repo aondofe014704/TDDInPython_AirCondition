@@ -1,8 +1,14 @@
 import unittest
 
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(True, False)  # add assertion here
+from assignment_in_python.automaticBike import AutomaticBike
+
+
+class AutomaticBikeTest(unittest.TestCase):
+    def test_that_Automatic_Bike_can_be_turned_On(self):
+        automaticBike = AutomaticBike()
+
+
+
 
 if __name__ == '__main__':
     unittest.main()
